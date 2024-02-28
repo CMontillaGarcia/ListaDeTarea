@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarea</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="cabeza">
+            <div id="Cabeza"> Lista de Tarea</div>
+        </div>
+    <div class="agregar-tarea">
+         <input type="text" id="input" placeholder="Agregar una tarea">
+         <i id="enter" class="fas fa-plus-circle"></i>
+    </div>
+    <div class="seccion-tarea">
+         <h3>Tareas Pendientes</h3>
+         <ul class="lista">
+        <li>
+           <i class="far fa-circle co" data="realizado" id="0"></i>
+           <p class="text"> primera tarea</p>
+           <i class="fas fa-trash de" data="eliminado" id="0"></i> 
+             </li>
+             <li>
+              <i class="far fa-circle co" data="realizado" id="0"></i>
+              <p class="text"> segunda tarea</textarea></p>
+              <i class="fas fa-trash de" data="eliminado" id="0"></i> 
+                </li>
+             <li>
+              <i class="far fa-circle co" data="realizado" id="0"></i>
+              <p class="textm line-through "> tercera tarea </p>
+              <i class="fas fa-trash de" data="eliminado" id="0"></i>
+                </li>
+          </ul>
+        </div>
+        <div class="cont-container">
+        <h5 id="total-container">total 3</h5>
+        <h5 id="completed-continer"> completas 1</h5>
+        <h5 id="incompleted-container">incompleto 2</h5>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
